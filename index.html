@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Figure out the ultimate reason bbehind everything!">
+    <title>Thala For A Reason</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body class="flex centre">
+    <main>
+      <h1 class="fg-light">Thala For a Reason</h1>
+      <section class="formContainer flex flex-col centre">
+        <div class="formRow">
+          <form action="" class="flex">
+            <input
+              type="text"
+              name="word"
+              placeholder="Enter a Word"
+              class="wordInput"
+            />
+            <input type="submit" value="Check" class="btn btnWord" />
+          </form>
+        </div>
+        <div class="formRow">
+          <form action="" onsubmit="return" class="flex">
+            <input
+              type="number"
+              name="no"
+              placeholder="Enter a Number"
+              class="noInput"
+            />
+            <input type="submit" value="Check" class="btn btnNo" />
+          </form>
+        </div>
+      </section>
+      <section class="results flex flex-col centre-vertical">
+        <p class="wordRes fg-very-light"></p>
+        <p class="noRes fg-very-light"></p>
+      </section>
+      <section class="share flex flex-col centre-vertical">
+        <h2 class="shareHeading fg-light">Share On:</h2>
+        <div class="shareIcons flex">
+          <a href="#" target="_blank" class="flex centre twitter"
+            ><img src="./assets/icons/x-twitter.svg" alt=""
+          /></a>
+          <a href="#" target="_blank" class="flex centre whatsapp"
+            ><img src="./assets/icons/whatsapp.svg" alt=""
+          /></a>
+        </div>
+      </section>
+    </main>
+    <img src="./assets/images/thala_image.png" class="thala absolute" alt="Image of MS Dhoni paying tribute">
+  </body>
+</html>
